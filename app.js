@@ -2,9 +2,9 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-app.listen(5000, () => {
-  console.log("Server is up");
-});
+//PORT ENVIRONMENT VARIABLE
+const port = process.env.PORT || 8080;
+app.listen(port, () => console.log(`Listening on port ${port}..`));
 
 const data = {
   slackUsername: "@isaacolanre",
