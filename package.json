@@ -1,0 +1,11 @@
+{
+  "name": "Isaac",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:isaaclanre/backend-stage-1.git",
+  "author": "Isaac Olanrewaju <isaacolanre@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
